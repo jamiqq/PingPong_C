@@ -78,7 +78,7 @@ typedef struct {
 } shared_data_t;
 
 static shared_data_t *g_shm = NULL;
-static const char *g_shm_name = "/zso_pingpong_shm";
+static const char *g_shm_name = "/pingpong_shm";
 
 static int g_n_workers;
 static int g_max_balls;
